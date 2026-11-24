@@ -13,7 +13,7 @@ import java.util.Date;
 @Getter @Setter @AllArgsConstructor @NoArgsConstructor @Builder
 public class BankAccount {
     @Id
-    private long id ;
+    private String id ;
     private Date createdAt;
     private double balance;
     private  String type;
